@@ -25,10 +25,6 @@ This repo is built upon [**MMSegmentation**](https://github.com/open-mmlab/mmseg
 + numpy 1.21.0
 + torch 1.9.1
 + CUDA 11.1
-
-You can directly run the following command to create the environment:
- 
-    pip install -r cac_requirements.txt
     
 For more details, please refer to the dependancy requirments of [**MMSegmentation**](https://github.com/open-mmlab/mmsegmentation).
 
