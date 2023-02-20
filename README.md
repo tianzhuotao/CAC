@@ -41,7 +41,7 @@ For testing with config.py on 4 GPUs, and the weights are loaded from model.pth,
     ./tool/dist_test.sh config.py model.pth 4 --eval mIoU
 
 # Results and models
-We reproduce the results on ADE20K with this repo as examples for using the context-aware classifier. For reproducing the results on other benchmarks, please refer to the [**configurations**](https://github.com/open-mmlab/mmsegmentation/tree/master/configs) of mmsegmentation and change the decoder heads accordingly. 
+We reproduce the results on ADE20K with this repo as examples for using the context-aware classifier. For reproducing the results on other benchmarks, please refer to the [**configurations**](https://github.com/open-mmlab/mmsegmentation/tree/master/configs) of mmsegmentation and change the decoder heads accordingly. One example of FCN is:
 
 ![image](https://user-images.githubusercontent.com/68939582/220012772-f8a8bbb3-be27-4aa1-8c01-c8ea43ff2f32.png)
 
