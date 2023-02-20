@@ -32,11 +32,11 @@ For more details, please refer to the dependancy requirments of [**MMSegmentatio
 ### Dataset & Training & Testing
 The data preparation, training and testing strictly follows that of MMSegmentation, please refer to the [**document**](https://mmsegmentation.readthedocs.io/en/latest/) for more details.
 
-For example, for training with config.py with 4 GPUs, please run:
+For example, for training with config.py on 4 GPUs, please run:
 
     ./tool/dist_train.sh config.py 4 
     
-for Test with config.py with 4 GPUs, and the weights are loaded from model.pth, please run:
+For testing with config.py on 4 GPUs, and the weights are loaded from model.pth, please run:
 
     ./tool/dist_test.sh config.py model.pth 4 --eval mIoU
 
