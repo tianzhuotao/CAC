@@ -32,13 +32,13 @@ For more details, please refer to the dependancy requirments of [**MMSegmentatio
 ### Dataset & Training & Testing
 The data preparation, training and testing strictly follows that of MMSegmentation, please refer to the [**document**](https://mmsegmentation.readthedocs.io/en/latest/) for more details.
 
-For example, for training with config_1.py with 4 GPUs, please run:
+For example, for training with config.py with 4 GPUs, please run:
 
-    ./tool/dist_train.sh config_1.py 4 
+    ./tool/dist_train.sh config.py 4 
     
-for Test with config_1.py with 4 GPUs, and the weights are loaded from model.pth, please run:
+for Test with config.py with 4 GPUs, and the weights are loaded from model.pth, please run:
 
-    ./tool/dist_test.sh config_1.py model.pth 4 --eval mIoU
+    ./tool/dist_test.sh config.py model.pth 4 --eval mIoU
 
 # Results and models
 We reproduce the results on ADE20K with this repo as examples for using the context-aware classifier. For reproducing the results on other benchmarks, please refer to the [**configurations**](https://github.com/open-mmlab/mmsegmentation/tree/master/configs) of mmsegmentation and change the decoder heads accordingly. 
