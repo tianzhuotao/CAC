@@ -1,5 +1,5 @@
 # CAC
-This is the implementation of [**Learning Context-aware Classifier for Semantic Segmentation**](https://jiaya.me/papers/Zhuotao_AAAI_2022.pdf) (AAAI 2023). 
+This is the implementation of [**Learning Context-aware Classifier for Semantic Segmentation**](https://jiaya.me/papers/Zhuotao_AAAI_2022.pdf) (AAAI 2023, Oral). 
 
 ![cac](https://user-images.githubusercontent.com/68939582/219602560-2e6d85ef-ce07-48cd-ae76-08c21cdf45d6.png)
 
