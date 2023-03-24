@@ -1,5 +1,5 @@
 # CAC
-This is the implementation of [**Learning Context-aware Classifier for Semantic Segmentation**](https://jiaya.me/papers/Zhuotao_AAAI_2022.pdf) (AAAI 2023, Oral). This repo provides the implementation of CAC for 2D semantic segmentation. 
+This is the implementation of [**Learning Context-aware Classifier for Semantic Segmentation**](https://arxiv.org/abs/2303.11633) (AAAI 2023, Oral). This repo provides the implementation of CAC for 2D semantic segmentation. 
 
 CAC is also found effective in **3D semantic segmentation**, achieving competitive performance against recent SOTA methods (e.g., boosting SpUNet to 76% mIoU on Scannet val), and the implementation is available at [**PointCept**](https://github.com/Pointcept/Pointcept) that is a powerful and flexible codebase for point cloud perception research. 
 
